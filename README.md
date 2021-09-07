@@ -1,5 +1,5 @@
 # Simple App Store 1.0 - Server (API)
-These are the server files for the SimpleAppStore AI2 project
+These are the server files for the [SimpleAppStore AI2 project](https://community.appinventor.mit.edu/t/simpleappstore-v1-0/40782?u=anonwins)
 
 ## Requirements
 
