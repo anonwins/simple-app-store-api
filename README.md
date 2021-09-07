@@ -36,7 +36,9 @@ These are the server files for the [SimpleAppStore AI2 project](https://communit
     
     example: `https://your-server/simple-app-store-api/apk-upload.php?apk-url=https://ai2app.apk&passcode=ThisIsExamplePasscode123`
     
-## Once-click APK upload
+    Although I highly recommend using the one-click upload (bookmarklet):
+    
+## One-click APK upload
    
    You can also use this handy [bookmarklet](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) to publish your app with one click, right after you build it:
    
