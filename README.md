@@ -12,11 +12,11 @@ These are the server files for the SimpleAppStore AI2 project
 
 ## How to configure
 
-- config.php
+- [config.php](config.php)
     
     - You need to change the passcode. This is your personal/admin password
     
-- app-list.json
+- [app-list.json](app-list.json)
 
     - Here you need to enter your apps (name, description, package name)
     
@@ -24,23 +24,22 @@ These are the server files for the SimpleAppStore AI2 project
     
 ## How to use
 
-  - Go to the url of the script's directory.
-  
+  - Load [index.php](index.php) in your browser.
+
     You will see your app-list in a format suitable for the SimpleAppStore AI2 project.
     
     You can use this url in your project.
     
-  - To upload a new version of an app, go to the url of apk-upload.php
+  - To upload a new version of an app, load the [apk-upload.php](apk-upload.php) in your browser
   
-    You need to enter these parameters: apk-url, passcode
+    You need to provide these parameters: `apk-url`, `passcode`
     
-    example: https://your-server/simple-app-store-api/apk-upload.php?apk-url=https://ai2app.apk&passcode=ThisIsExamplePasscode123
+    example: `https://your-server/simple-app-store-api/apk-upload.php?apk-url=https://ai2app.apk&passcode=ThisIsExamplePasscode123`
     
-## Easy APK upload with the bookmarklet
+## Once-click APK upload
    
-   You can also use this handy bookmarklet to publish your app with one click, right after you build it:
-    
-    
+   You can also use this handy [bookmarklet](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) to publish your app with one click, right after you build it:
+   
     javascript: if (document.querySelector('.gwt-Anchor.gwt-Button.download-button').href) {
     
 	var api_url = 'https://your-server/simple-app-store-api/apk-upload.php'; // <-- change this!
@@ -56,4 +55,4 @@ These are the server files for the SimpleAppStore AI2 project
    Just click the bookmarklet when the Download APK button & QR code appear in AI2, after the build.
    
    The fresh apk will be sent to the server, and the API will reflect the new version in future calls.
-    
+   
