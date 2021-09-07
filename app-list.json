@@ -1,0 +1,12 @@
+[
+	{
+		"name": "App1 Name",
+		"desc": "App1 Description",
+		"pckg": "appinventor.user_name.app1_project_name"
+	},
+	{
+		"name": "App2 Name",
+		"desc": "App2 Description",
+		"pckg": "appinventor.user_name.app2_project_name"
+	}
+]
