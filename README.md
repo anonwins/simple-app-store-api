@@ -56,3 +56,14 @@ These are the server files for the SimpleAppStore AI2 project
    
    The fresh apk will be sent to the server, and the API will reflect the new version in future calls.
    
+## How to set app images
+
+   Add the images in the [`/img`](/img) folder. Each image must have the name of the app. Not the whole package name.
+   
+   Example: `/img/app1.png`
+   
+   Note the images but by png
+   
+## How to add new apps / remove apps
+
+   Just edit the [app-list.json](app-list.json)
